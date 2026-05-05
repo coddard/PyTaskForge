@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: dark; }
+  * { @apply border-gray-700; }
+  body { @apply antialiased; }
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 disabled:opacity-50 disabled:cursor-not-allowed; }
+  .btn-primary { @apply btn bg-brand text-white hover:bg-brand-dark focus:ring-brand; }
+  .btn-danger  { @apply btn bg-red-600 text-white hover:bg-red-700 focus:ring-red-500; }
+  .btn-ghost   { @apply btn bg-gray-800 text-gray-200 hover:bg-gray-700 focus:ring-gray-600; }
+  .input       { @apply block w-full rounded-lg bg-gray-800 border border-gray-600 text-gray-100 placeholder-gray-500 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent; }
+  .label       { @apply block text-sm font-medium text-gray-300 mb-1; }
+  .card        { @apply bg-gray-900 rounded-xl border border-gray-800 p-6; }
+  .badge       { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold; }
+  .badge-active  { @apply badge bg-emerald-900 text-emerald-300; }
+  .badge-paused  { @apply badge bg-yellow-900 text-yellow-300; }
+  .badge-deleted { @apply badge bg-red-900 text-red-300; }
+  .badge-success { @apply badge bg-emerald-900 text-emerald-300; }
+  .badge-failed  { @apply badge bg-red-900 text-red-300; }
+  .badge-running { @apply badge bg-blue-900 text-blue-300 animate-pulse; }
+  .badge-timeout { @apply badge bg-orange-900 text-orange-300; }
+  .badge-pending { @apply badge bg-gray-700 text-gray-300; }
+}
+
+/* Terminal log renkleri */
+.log-out  { @apply text-gray-200; }
+.log-err  { @apply text-red-400; }
+.log-info { @apply text-cyan-400; }
+.log-pip  { @apply text-yellow-400; }
+.log-build { @apply text-purple-400; }
+.log-sys  { @apply text-emerald-400 font-semibold; }
+.log-warn { @apply text-yellow-300; }
+

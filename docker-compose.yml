@@ -1,0 +1,26 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./jobs:/app/jobs          # User scripts directory
+      - ./data:/app/data          # SQLite database file
+      - /var/run/docker.sock:/var/run/docker.sock  # Docker-in-Docker access
+    restart: unless-stopped
+
+  # Optional: Nginx reverse proxy for the frontend
+  # nginx:
+  #   image: nginx:alpine
+  #   ports:
+  #     - "80:80"
+  #   volumes:
+  #     - ./frontend/dist:/usr/share/nginx/html
+  #     - ./nginx.conf:/etc/nginx/conf.d/default.conf
+  #   depends_on:
+  #     - backend
+
