@@ -1,0 +1,25 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="860" fill="#030712"/>
+  <text x="40" y="56" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">PyTaskForge — Job Form View</text>
+  <text x="40" y="88" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="16">Illustrative preview based on frontend/src/views/JobFormView.vue</text>
+  <rect x="0" y="110" width="1200" height="72" fill="#111827" stroke="#1F2937"/>
+  <text x="64" y="154" fill="#F9FAFB" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">← New Job</text>
+  <rect x="130" y="214" width="940" height="154" rx="20" fill="#111827" stroke="#374151"/>
+  <text x="160" y="256" fill="#F9FAFB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Basic Information</text>
+  <rect x="160" y="280" width="400" height="46" rx="12" fill="#0F172A" stroke="#4B5563"/>
+  <rect x="160" y="336" width="860" height="18" rx="9" fill="#1F2937"/>
+  <rect x="580" y="280" width="440" height="46" rx="12" fill="#0F172A" stroke="#4B5563"/>
+  <rect x="130" y="392" width="940" height="148" rx="20" fill="#111827" stroke="#374151"/>
+  <text x="160" y="434" fill="#F9FAFB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Execution Mode</text>
+  <rect x="160" y="456" width="200" height="54" rx="14" fill="#172554" stroke="#3B82F6"/>
+  <text x="234" y="490" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">venv</text>
+  <rect x="382" y="456" width="200" height="54" rx="14" fill="#111827" stroke="#4B5563"/>
+  <text x="446" y="490" fill="#D1D5DB" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">docker</text>
+  <rect x="130" y="564" width="940" height="170" rx="20" fill="#111827" stroke="#374151"/>
+  <text x="160" y="606" fill="#F9FAFB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Schedule</text>
+  <rect x="160" y="628" width="260" height="46" rx="12" fill="#0F172A" stroke="#4B5563"/>
+  <rect x="444" y="628" width="576" height="72" rx="12" fill="#0F172A" stroke="#4B5563"/>
+  <rect x="130" y="758" width="940" height="56" rx="20" fill="#0F172A" stroke="#1F2937"/>
+  <text x="160" y="793" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="18">The current form captures script path, trigger JSON, requirements, env vars, and optional timeout.</text>
+</svg>
+
